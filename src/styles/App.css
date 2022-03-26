@@ -1,0 +1,23 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+#root {
+   display: flex;
+   justify-content: center;
+}
+.post {
+   width: 600px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 20px auto;
+   border: 2px solid silver;
+   border-radius: 5px;
+   padding: 10px;
+}
+.post__btn button {
+   padding: 5px 10px;
+}
